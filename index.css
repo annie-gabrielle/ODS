@@ -63,3 +63,20 @@ html{
     margin-top: 10px;
     margin-left: 10%;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+    .languages img {
+        display: none;
+    }
+
+    .languages {
+        padding: 10px;
+    }
+
+    .botoes {
+        margin-top: 20px;
+    }
+}

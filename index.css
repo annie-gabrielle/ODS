@@ -67,7 +67,7 @@ html{
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 768px) {
+@media (max-width: 608px) {
     .languages img {
         display: none;
     }

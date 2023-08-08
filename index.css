@@ -1,0 +1,65 @@
+
+html{
+    background:url("images/bg6.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:top right;
+}       
+
+/* #586165aa */
+
+.languages{
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #586165aa;
+    border-radius: 5%;
+}
+
+.languages img {
+    width: 450px;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7%;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.button-languages{
+    margin: 5px;
+    background-color: #9bc3fe;
+    padding: 10px 20px;
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.button-languages:hover {
+    background-color: whitesmoke;
+    border:2px solid #1e3e84;
+    color:#1e3e84;
+} 
+ .button_en:hover::after { 
+    content: " - Welcome"; 
+}
+.button_es:hover::after {
+    content: " - Bienvenidos"; 
+    
+}
+.button_pt:hover::after {
+    content: " - Bem-vindos"; 
+}
+.button_pt{
+    margin-bottom: 30px;
+}
+
+.botoes{
+    display: flex; /* Habilita o flexbox na div */
+    flex-direction: column; /* Coloca os botões em uma coluna */
+    align-items: flex-start; /* Centraliza à esquerda */
+    margin-top: 10px;
+    margin-left: 10%;
+}

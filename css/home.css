@@ -1,0 +1,484 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(249, 248, 248);
+    width: 100%;
+
+    
+}
+
+
+/* header:#c4c3c3; menu: #ccc; */
+
+header {
+    padding: 1px;
+    background-color: #a7a6a6;
+    margin-top: 0px;
+    text-align: right;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover{
+    color: #2476f3;
+}
+
+.header {
+    font-size: 22px;
+    background-color: #ccc;
+    padding: 2px;
+}
+
+.header .logo {
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto ao redor */
+  }
+  
+.dropdown{
+    position: relative;
+    display: inline-block;
+    min-width: 150px; 
+}
+
+.dropdown ul {
+    list-style: none;
+    display: block;
+}
+
+
+.dropdown-menu li a:hover {
+    background-color: #81cff5;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    display: none;
+    opacity: 0; /* Inicia com opacidade 0 (invisível) */
+}
+
+.dropdown:hover .dropdown-menu a{
+    display: block;
+    opacity: 1;
+}
+
+.dropbtn, .dropdown-menu a {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .dropdown-menu{
+    margin-top: 0;
+    margin:0 ;
+    min-width: 189px; 
+  }
+
+
+  .dropbtn:active, .dropdown-content a:active {
+    background-color: #ccc; /* Altere a cor conforme desejado */
+  }
+
+.logo {
+    width: 200px;
+}
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu ul {
+    margin-top: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+main{
+    width:80%;
+    margin: auto;
+}
+
+
+
+#metas {
+    overflow: hidden; /* Limpa o float */
+    margin-top: 50px;
+}
+
+#metas h1{
+    margin-top: 0;
+}
+
+#metas p{
+    text-align:justify;
+}
+
+#metas a{
+    margin-left: 380px;
+    text-decoration: none;
+    color: #1c4c94;
+}
+
+#metas a:hover{
+    color: #81cff5;
+}
+
+.metas-flex-container {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of the flex items */
+    justify-content: space-between; /* Create space between the flex items */
+    align-items: center; /* Align items vertically */
+    width:100%;
+    background-color: rgb(232, 230, 230);
+    padding: 20px;
+}
+
+.metas-image {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.metas-texto {
+    flex: 2;
+ 
+}
+
+.metas-image img {
+    max-width: 100%;
+    float: right;
+}
+
+.container-video-objetivo6{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.metas-video{
+    margin-top: 22px;
+    float: left;
+    flex: 1; 
+}
+
+.container-video-objetivo6-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-video-objetivo6-texto li{
+    margin-bottom: 20px;
+    list-style-type: square;
+}
+
+.container-video-objetivo6-texto li:hover{
+    background-color: #81cef57c;
+}
+
+.resto li{
+    margin-bottom: 20px;
+    list-style-type: square;
+}
+
+.resto li:hover{
+    background-color: #81cef57c;
+}
+
+.container-video-objetivo6-texto h3 {
+    margin-top: 0;
+}
+
+
+
+#ciclo{
+    background-color: rgb(232, 230, 230);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.image-ciclo img{
+    width: 600px;
+    float:left;
+    border-radius: 100%;
+    padding-right: 30px;
+}
+
+#estatisticas{
+    margin-top: 50px;
+}
+
+#estatisticas a{
+    text-decoration:none;
+    color: #1c4c94;
+}
+
+#estatisticas a:hover{
+    color: #81cff5;
+}
+
+
+.galeria-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-container figure {
+    width: 250px ; /* Largura fixa para todas as imagens */
+    margin: 10px;
+}
+
+.galeria-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.galeria-container figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contaminacao{
+    background-color: rgb(232, 230, 230);
+    width: 100%;
+}
+
+
+
+.superficial img{
+    float: left;
+    width:420px;
+    margin-right: 50px;
+     padding: 20px;
+}
+.superficial{
+    background-color: rgb(232, 230, 230);
+    margin-bottom: 50px;
+    float:right;
+    padding: 30px;
+  
+}
+
+    .subterranea{
+    background-color: rgb(232, 230, 230);
+    margin-top: 0;
+    float: left;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.subterranea img{
+    float: right;
+    width:300px;
+    margin-left: 50px;
+}
+
+
+#profissionais{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profissionais-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+
+
+.profissionais-img {
+    max-width: 200px; /* Defina um tamanho máximo para as imagens */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-left: 30px;
+}
+
+.geologo {
+    float: left;
+}
+
+.geofisico {
+    float: left;
+}
+
+.ambiental{
+    float:left;
+}
+.hidraulico{
+    float: left;
+}
+
+.geologo img{
+    float: right;
+}
+
+.geofisico img{
+    float: right;
+}
+
+.ambiental img{
+    float: right;
+}
+.hidraulico img{
+    float:right;
+}
+
+
+
+
+footer {
+    margin: 0;
+    margin:auto;
+    width:100%;
+    background-color: #81cff5;
+    display: inline-block;
+}
+
+.footer footer img{
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto ao redor */
+
+  }
+
+.texto-footer{
+    align-items:center;
+}
+
+footer img {
+    width: 200px;
+    border-radius: 50%;
+    float:right;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+footer p{
+    font-size: 23px;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: #2476f3;
+}
+
+footer h2,p{
+    margin-left: 30px;
+}
+
+.banco{
+    text-decoration: none;
+}
+
+
+.fa {
+    margin-left: 30px;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+
+@media all and (max-width: 769px){
+    .menu{
+        display:none;
+    }
+
+    .header{
+        background-color: #f1f1f1;
+        padding: 10px 0; /* Adicione um espaço no topo e na base */
+    }
+   .logo {
+    width: auto;
+    display: block; /* Remove alinhamento anterior do flex */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
+      }
+      .metas-flex-container {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza o conteúdo horizontalmente */
+        text-align: center; /* Centraliza o texto */
+        padding: 20px;
+    }
+    
+    .metas-image {
+        max-width: 80%;
+        margin-bottom: 10px;
+        align-self: center;
+        margin: 0;
+    }
+    
+    .metas-texto {
+        max-width: 400px; /* Largura máxima para o texto */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        padding: 0 10px; /* Espaçamento para melhor legibilidade */
+    }
+
+    .metas-texto p{
+        margin-bottom: 10px;
+    }
+    .metas-video iframe{
+        margin-bottom: 50px;
+    }
+    
+    .metas-texto a{
+        position: static; /* Volta ao fluxo normal para o link */
+        display: block; /* Faz com que o link ocupe a largura total do container */
+    }
+
+    .image-ciclo img{
+        max-width: 90%;
+        flex-direction: column;
+        float: none;
+        display: block;
+        padding: 10;
+        margin-left: 10px;
+    }
+
+    .superficial img{
+        max-width: 85%;
+        flex-direction: column;
+        float: none;
+        display: block;
+        padding: 10;
+        margin-left: 10px;
+    }
+
+    .subterranea img{
+        max-width: 90%;
+        flex-direction: column;
+        float: none;
+        display: block;
+        padding: 10;
+        align-self: center;
+        margin-left: 90px;
+    }
+    
+}
